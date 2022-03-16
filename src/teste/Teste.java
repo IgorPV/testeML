@@ -10,6 +10,7 @@ import java.util.Scanner;
 public class Teste {
 
 	public static List<String> teste(int n) {
+		if(n>9) return null;
 		HashMap<String, String> lista = new HashMap<String, String>();
 		for(int i = 1000; i<=9999; i++) {
 			lista.put(String.valueOf(i), "false");
